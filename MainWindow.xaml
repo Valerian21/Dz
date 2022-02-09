@@ -1,0 +1,24 @@
+﻿<Window x:Class="Dz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFA2D7DB">
+        <Button Content="Добавить " HorizontalAlignment="Left" Margin="546,322,0,0" VerticalAlignment="Top" Width="208" Click="Button_Click" BorderBrush="#FF0053FF" Background="#FF51C0EA" FontSize="16" Height="35"/>
+        <TextBox x:Name="FirstN" HorizontalAlignment="Left" Height="23" Margin="583,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16" />
+        <TextBox x:Name="LastN" HorizontalAlignment="Left" Height="23" Margin="583,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <TextBox x:Name="Group" HorizontalAlignment="Left" Height="23" Margin="583,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <TextBox x:Name="Specializ" HorizontalAlignment="Left" Height="23" Margin="583,263,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="575,45,0,0" VerticalAlignment="Top" Width="95" FontSize="16"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="583,105,0,0" VerticalAlignment="Top" Width="95" FontSize="16"/>
+        <Label Content="Група" HorizontalAlignment="Left" Margin="583,173,0,0" VerticalAlignment="Top" Width="95" FontSize="16"/>
+        <Label Content="Специальность" HorizontalAlignment="Left" Margin="583,232,0,0" VerticalAlignment="Top" Width="136" FontSize="16"/>
+        <Label x:Name="a" Content="" HorizontalAlignment="Left" Margin="248,367,0,0" VerticalAlignment="Top" Width="218"/>
+        <Label x:Name="b" Content="" HorizontalAlignment="Left" Margin="25,367,0,0" VerticalAlignment="Top" Width="218"/>
+        <TextBox x:Name="db" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="428" Height="347" Background="#FFA9E5EF" />
+
+    </Grid>
+</Window>
